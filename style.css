@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.todo-container {
+  margin-top: 30px;
+  width: 300px;
+}
+
+#taskList li {
+  margin: 5px 0;
+  list-style: none;
+  background: #fafafa;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
